@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background: #FFECC4;
+    font-family: Comic Sans MS, sans-serif;
+    min-height: 1200px;
+    height: auto;
+}
+
+.container {
+    width: 958px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: #AEE8A7;
+    text-shadow: 3px 2px 0 #FFECC4;
+    font-size: 30px;
+}
+
+main {
+    margin: 0 auto;
+    height: auto;
+}
+
+.imgContentFinish {
+    display: flex;
+    justify-content: center;
+}
+#restart {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table span {
+    background: #000 none repeat scroll 0 0;
+    height: 100px;
+    position: absolute;
+    width: 96px;
+}
+
+.font {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQR5r8MN56v_NFfnz105Suu79fSQJSlgiYLnaZa7b-bGL2unWiY) no-repeat;
+    width: 96px; /* ширина нового изображения */
+    height: 96px; /* высота нового изображения */
+    padding-left: 96px; /* размер отступа равен ширине нового изображения */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: #AEE8A7;
+}
+
+.hidden {
+    visibility: hidden;
+}
